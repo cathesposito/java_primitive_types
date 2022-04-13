@@ -7,7 +7,7 @@ public class Main {
         short myShorValue = 100;
         int myIntValue = 1000;
 
-        long myLongValue = (long)(50000 * (10 * ((int)(myByteValue) + (int)(myShorValue) + (myIntValue))));
+        long myLongValue = (50000 * (10 * (myByteValue + myShorValue + myIntValue)));
 
         System.out.println("My Long value is " + myLongValue);
     }
