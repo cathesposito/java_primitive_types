@@ -3,12 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int myValue = 10;
 
-        byte myMinByteValue = Byte.MIN_VALUE;
-        byte myMaxByteValue = Byte.MAX_VALUE;
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
 
-        System.out.println("Integer Minimum Value is " + myMinByteValue );
-        System.out.println("Integer Maximum Value is " + myMaxByteValue );
+        System.out.println("Integer Minimum Value is " + myMinShortValue );
+        System.out.println("Integer Maximum Value is " + myMaxShortValue );
     }
 }
