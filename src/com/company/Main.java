@@ -3,10 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        byte myValue = Byte.MIN_VALUE;
-        byte myNewByteValue = (byte)(myValue /2);
+        byte myByteValue = 10;
+        short myShorValue = 100;
+        int myIntValue = 1000;
 
-        System.out.println("New byte Minimum Value is " + myNewByteValue );
+        long myLongValue = (long)(50000 * (10 * ((int)(myByteValue) + (int)(myShorValue) + (myIntValue))));
 
+        System.out.println("My Long value is " + myLongValue);
     }
 }
