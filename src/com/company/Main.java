@@ -3,11 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        boolean myTrueBooleanValue = true;
-        boolean myFalseBooleanValue = false;
+        String myString = "This is my string";
+        System.out.println("myString is equal to " + myString);
+        myString = myString + ", and this is more";
+        System.out.println("myString is equal to " + myString);
 
-        boolean isCustomerOverTwentyOne = true;
-
-        System.out.println(isCustomerOverTwentyOne + " is equal to " + myTrueBooleanValue);
     }
 }
