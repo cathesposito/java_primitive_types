@@ -3,9 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        char myChar = 'D';
-        char myUnicodeChar = '\u0044';
+        boolean myTrueBooleanValue = true;
+        boolean myFalseBooleanValue = false;
 
-        System.out.println(myChar + " is equal to " + myUnicodeChar);
+        boolean isCustomerOverTwentyOne = true;
+
+        System.out.println(isCustomerOverTwentyOne + " is equal to " + myTrueBooleanValue);
     }
 }
